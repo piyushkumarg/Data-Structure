@@ -26,7 +26,7 @@
 1. [909. Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/)
 1. [2359. Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes/)
 1. [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
-1. # [352. Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)
+1. [352. Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)
 1. [472. Concatenated Words](https://leetcode.com/problems/concatenated-words/)
 1. [460. LFU Cache](https://leetcode.com/problems/lfu-cache/)
 1. [1137. N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)
