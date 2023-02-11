@@ -1,5 +1,5 @@
 # Problem of the Day
 
-### [GeeksForGeeks](https://github.com/piyushkumarg/problem-of-the-day/tree/main/GeeksOfGeeks)
+### [GeeksForGeeks](https://github.com/piyushkumarg/Data-Structure/tree/main/problem-of-the-day/GeeksOfGeeks)
 
-### [LeetCode](https://github.com/piyushkumarg/problem-of-the-day/tree/main/LeetCode)
+### [LeetCode](https://github.com/piyushkumarg/Data-Structure/tree/main/problem-of-the-day/LeetCode)
