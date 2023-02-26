@@ -9,7 +9,7 @@ using namespace std;
 const int N = 1e6 + 10;
 
 // Method 1: Using Map
-int majorityElement(int a[], int n)
+int majorityElement1(int a[], int n)
 {
 
     unordered_map<int, int> temp;
@@ -25,6 +25,43 @@ int majorityElement(int a[], int n)
     }
     return -1;
 }
+
+// Method 2: Boyer-Moore Majority Voting Algorithm
+int majorityElement(int arr[], int n)
+{
+
+    int candidate = -1, votes = 0;
+    // Finding majority candidate
+    for (int i = 0; i < n; i++)
+    {
+        if (votes == 0)
+        {
+            candidate = arr[i];
+            votes = 1;
+        }
+        else
+        {
+            if (arr[i] == candidate)
+                votes++;
+            else
+                votes--;
+        }
+    }
+
+    // Checking if majority candidate occurs more than n/2 times
+    int count = 0;
+    for (int i = 0; i < n; i++)
+    {
+        if (arr[i] == candidate)
+            count++;
+    }
+
+    if (count > n / 2)
+        return candidate;
+
+    return -1;
+}
+
 int main()
 {
     fastread();
